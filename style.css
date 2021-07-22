@@ -1,4 +1,13 @@
 body{
+    text-align: center;
     background-color: #262322;
     color: #F3EEE2;
+}
+.indice a{
+    text-decoration: none;
+    color: #F3EEE2;
+     ;
+}
+.indice a:hover{
+    color: #DB504A;
 }
