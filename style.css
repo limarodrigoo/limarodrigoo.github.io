@@ -2,12 +2,31 @@ body{
     text-align: center;
     background-color: #262322;
     color: #F3EEE2;
+    list-style-position: inside;
+}
+.indice{
+    background-color: #DB504A;
+    overflow: auto;
+    text-align: center;
+    width: 100%;
 }
 .indice a{
+    float: left;
     text-decoration: none;
     color: #F3EEE2;
-     ;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    width: 22%;
 }
 .indice a:hover{
-    color: #DB504A;
+    background-color: #262322;
 }
+
+#description{
+    font-family: monospace;
+}
+#description a{
+    color: #F3EEE2;
+}
+
