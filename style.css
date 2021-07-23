@@ -2,8 +2,6 @@ body{
     text-align: center;
     background-color: #262322;
     color: #F3EEE2;
-    list-style-position: inside;
-    list-style-type: lower-roman;
     font-family: monospace;
 }
 h1{
@@ -50,7 +48,10 @@ h2{
     padding: 10%;
     display: block;
     line-height: 35px;
-    background-color: #DB504A
+    background-color: #DB504A;
+    list-style-position: inside;
+    list-style-type: circle;
+    font-size: 16px;
 }
 #photo{ 
     float: right;  
@@ -62,6 +63,9 @@ h2{
     display: inline-block;
     margin-bottom: 45px;
     line-height: 40px;
+    list-style-position: inside;
+    list-style-type: circle;
+    font-size: 20px;
 }
 
 
