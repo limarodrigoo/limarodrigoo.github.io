@@ -33,14 +33,18 @@ h2{
 }
 .indice a:hover{
     background-color: #262322;
+    
 }
-#photo{ 
-    /* float: right;   */
+.circle{
+    border: 0.5px dashed #DB504A;
     border-radius: 50%;
-    padding: 0 50px; 
     display: inline-block;
+    margin-top: 8em;
+}
+.circle img{ 
+    border-radius: 50%;
+    display: block;
     width: 240px;
-    margin: 5% 0 0 0;
 }
 #description{
     font-family: monospace;
