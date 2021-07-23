@@ -26,8 +26,8 @@ h2{
     color: #F3EEE2;
     display: block;
     text-align: center;
-    padding: 12px;
-    width: 22.5%;
+    width: 25%;
+    padding: 2% 0;
     font-size: 22px;
     transition: 0.3s;
 }
