@@ -34,7 +34,14 @@ h2{
 .indice a:hover{
     background-color: #262322;
 }
-
+#photo{ 
+    float: right;  
+    border-radius: 500px;
+    padding: 0 50px; 
+    display: inline-block;
+    width: 240px;
+    margin: 2.5% 0;
+}
 #description{
     font-family: monospace;
     padding: 5%;
@@ -54,8 +61,12 @@ h2{
     align-items: center;
     padding: 50px 20px;
 }
+#aboutMe{
+    background-color: #DB504A;
+    margin: 0;
+}
 #infos{
-    padding: 10%;
+    padding: 0% 10% 5% 10%;
     display: block;
     line-height: 35px;
     background-color: #DB504A;
@@ -63,14 +74,7 @@ h2{
     list-style-type: circle;
     font-size: 20px;
 }
-#photo{ 
-    float: right;  
-    border-radius: 500px;
-    padding: 0 50px; 
-    display: inline-block;
-    width: 240px;
-    margin: 2.5% 0;
-}
+
 
 #skills{
     display: inline-block;
