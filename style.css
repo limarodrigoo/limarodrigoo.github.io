@@ -7,12 +7,9 @@ body{
 h1{
     font-size: 5em;
     padding: 5%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: cursive;
 }
-h2{
-    font-size: 4em;
-    padding: 3%;
-}
+
 .indice{
     background-color: #DB504A;
     overflow: auto;
@@ -46,6 +43,7 @@ h2{
 .circle img{ 
     border-radius: 10px 50%;
     width: 240px;
+    padding: 10px;
 }
 #description{
     font-family: monospace;
@@ -87,10 +85,16 @@ h2{
     list-style-type: circle;
     font-size: 20px;
 }
+#infos li:nth-child(odd),
+#skills li:nth-child(odd){
+    text-shadow: 1px 1px;
+    font-weight: bolder;
+}
+
 #infos li:hover{
     background-color: #262322;
     color: #DB504A;
-    cursor: pointer;
+    cursor: crosshair;
 }
 
 #skills{
@@ -102,10 +106,19 @@ h2{
     list-style-type: circle;
     font-size: 20px;
 }
+#infos li:nth-child(even), #skills li:nth-child(even){
+    font-style: italic;
+}
 #skills li:hover{
     background-color: #DB504A;
     color: #262322;
-    cursor: pointer;
+    cursor:crosshair;
+}
+
+.habilidades h2, #aboutMe h2{
+    font-family: cursive;
+    font-size: 4em;
+    padding: 3%;
 }
 
 
